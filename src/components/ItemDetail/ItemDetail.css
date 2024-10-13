@@ -1,0 +1,95 @@
+
+.imgDetail {
+    width: 25vw;
+    position: relative;
+    top: 200px;
+    left: 20%;
+}
+
+
+.details {
+    margin-right: 25vw;
+    top: 450px;
+    position: absolute;
+    left: 60%;
+}
+
+.h2Detail {
+    font-family: 'Courier New', Courier, monospace; 
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.h3Detail {
+    font-family: 'Courier New', Courier, monospace; 
+    color: aliceblue;
+    font-size: 20px;
+}   
+
+.pDetail {
+    font-family: 'Courier New', Courier, monospace; 
+    color: aliceblue;
+    font-size: 20px;
+    width: 3vw;
+    min-width: 100px;
+}
+
+.seguirCompra {
+    margin-top: 10%;
+}
+
+.button-terminar {
+    text-decoration: none;
+}
+
+.irCarritoText {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    text-decoration: none;
+    color: rgb(247, 241, 241);
+}
+
+.irCarritoText:hover {
+    color: rgb(201, 201, 201);
+}
+
+@media screen and (max-width: 600px) {
+
+    .imgDetail {
+        width: 25vw;
+        min-width: 300px;
+        display: block;
+        margin: 0 auto;
+        left: 0%;
+    }
+
+    .h2Detail {
+        font-size: 5vw;
+    }
+    
+    .h3Detail {
+        font-size: 4vw;
+    }   
+    
+    .pDetail {
+        font-size: 3vw;
+    }
+
+    .seguirCompra {
+        font-size: 5vw;
+        position: relative;
+        margin-top: 60vh;
+    }
+
+
+
+    .details {
+        position: relative;
+        top: 300px;
+        left: 20px;
+        margin-inline: 20px;
+    }
+}   
+
+

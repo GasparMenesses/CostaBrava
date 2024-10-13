@@ -14,10 +14,10 @@ export const Navbar = () => {
         </Link>
         <ul>
             <li>
-              <Link to="/categoria/camisetas">Fiji</Link>
+              <Link to="/categoria/fiji">Fiji</Link>
             </li>
             <li>
-              <Link to="/categoria/gorros">Bahía</Link>
+              <Link to="/categoria/bahia">Bahía</Link>
             </li>
             {/* <li>
              <Link to="/categoria/buzos">BUZOS</Link>

@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAnVZHkc9wXBg7lYPE6eHmjS0hIYARXeI0",
-  authDomain: "costabrava-cf60a.firebaseapp.com",
-  projectId: "costabrava-cf60a",
-  storageBucket: "costabrava-cf60a.appspot.com",
-  messagingSenderId: "98481208985",
-  appId: "1:98481208985:web:ae0645bda079b915850208"
+  apiKey: "AIzaSyCGuLWAMPCWgHwuvNmjmLP95otc6Qgt3Lc",
+  authDomain: "costa-brava-d92a4.firebaseapp.com",
+  projectId: "costa-brava-d92a4",
+  storageBucket: "costa-brava-d92a4.appspot.com",
+  messagingSenderId: "331141464892",
+  appId: "1:331141464892:web:5b979cd1322f59456f1439"
 };
 
 initializeApp(firebaseConfig);

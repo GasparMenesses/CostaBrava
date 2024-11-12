@@ -5,7 +5,7 @@ import "./fondo.css";
 export const Fondo = () => {
   return (
     <div className='Fondo'>
-        <video className='videoFondo' autoPlay loop muted  src={videofondo}/>
+        <video className='videoFondo' autoPlay loop muted playsInline  src={videofondo}/>
         <div>
             <p></p>
         </div>

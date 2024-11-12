@@ -1,8 +1,6 @@
 .containerItems {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: rgba(209, 178, 139, 0.92);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     margin: 70px auto;
     width: 92vw;
     border-radius: 10px;
@@ -18,9 +16,13 @@
 
 .item {
     margin: 8%;
-    border-radius: 10px;
-    padding: 8%;
-    background-color: rgba(239, 217, 188, 0.92);
+    background-color: rgba(243, 242, 240, 0.246);
+    transition: 0.2s;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 figure {
@@ -29,31 +31,35 @@ figure {
 }
 
 .imgProduct {
-    height: 35vw;
-    max-height: 250px;
+    width: 90%;
     transition: 0.2s;
     display: block;
-    padding: 5% 0 15% 0;
-}
-
-.imgProduct:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+    margin: 10% 10% 10% 10%;
 }
 
 h2 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: rgba(0, 0, 0, 0.826);
     font-size: 1.6vw;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
 }
 
 .price {
     position: relative;
     bottom: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: rgba(0, 0, 0, 0.826);
     font-size: 1.1vw;
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 1000px) {

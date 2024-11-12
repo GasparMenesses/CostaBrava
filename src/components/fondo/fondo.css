@@ -1,0 +1,11 @@
+.Fondo {
+    display: flex;
+    justify-content: center;
+}
+
+.videoFondo {
+    width: 100vw; 
+    height:auto; 
+    filter: brightness(0.45);
+    z-index: -100;
+}

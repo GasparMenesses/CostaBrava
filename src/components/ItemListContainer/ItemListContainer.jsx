@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { collection, getDocs, query, where } from 'firebase/firestore'
+import { collection, getDocs, query, where } from 'firebase/firestore';
 import React, { useState, useEffect } from 'react';
 import db from '../../db/db';
 import './ItemListContainer.css';
@@ -44,7 +44,7 @@ export const ItemListContainer = () => {
           </figure>
           <div className='infoProduct'>
             <h2>{product.nombre}</h2>
-            <p className='price'>${product.precio}</p>
+            <p className='price'>$UYU  {product.precio}</p>
  
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import videofondo from '../../assets/videos/videofondo.mp4';
+import videofondo from '../../assets/videos/videofondoCMP.mp4';
 import "./fondo.css";
 
 export const Fondo = () => {
